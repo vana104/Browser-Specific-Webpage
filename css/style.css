@@ -1,0 +1,559 @@
+
+/* WEBKIT STYLING*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+   
+   body {background-image: url('../img/bck.png');}
+   
+#container{
+margin: auto;
+width: 1120px;
+position: relative;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+background-color: white;  
+}
+
+     /*navigation*/
+nav {
+    font-size: 16px;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: white;
+}
+nav ul {
+    text-align: center;
+    display: inline;
+    margin: 213px;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 14px 20px;
+    cursor: pointer;
+    -webkit-transition: all 5s;
+    -ms-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+nav a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner {
+        background-image: url('../img/chrome/banner.jpg');
+        height: 700px;
+        background-size: cover;
+        position: relative;
+      }
+h1 {
+    font-size: 40px;
+    text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-top: 60px;
+    
+}
+
+p {  text-align: justify;
+    text-align-last: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    }
+ /*menu begin*/
+ h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    
+ }
+
+ hr {
+    width: 700px;
+    margin-top: 60px;
+    color: black;
+   
+ }
+
+ h3 {       
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 60px;
+    color: black;
+    
+ }
+.port {
+    color: black;
+}
+
+.image_1 {
+    background-image: url(../img/chrome/2.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-left: 277px;
+    margin-right: 288px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 56px;
+}
+
+.contactform {
+    height: 400px;
+     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    
+}
+input {
+    display: block;
+    margin: 20px 0;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+textarea {
+    border-style: solid;
+    border-color: #000;
+    width: 300px;
+}
+.contactform {
+    color: white;
+    width: 1120px;
+    background-color: #fff;
+}
+.contactform p {
+    font-size: 12px;
+}
+.button {
+    width: 307px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+.name {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+}
+.textareacontainer {
+    display: inline-block;
+    width: 300px;
+}
+.form {
+    text-align: center;
+}
+.nameboxes {
+    width: 250px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.text_one {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_two {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_three {
+    text-align: left;
+    color: black;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* button*/
+
+   #circle {
+    width: 56px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    margin-left: 525px;
+    margin-top: 35px;
+    font-size: 21px;
+    color: white;
+}
+
+    .fok {
+        color: black;
+    }      
+/* bottom*/
+
+.bottom {
+    background-color: black;
+    color: white;
+    height: 180px;
+    padding-top: 50px;
+    font-family: auto;
+    margin-top: 55px;
+        text-align: justify;
+    text-align-last: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    
+}
+
+.middle {
+text-align: center;
+    width: 50px;
+    margin-left: -367px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+
+}
+
+.location {
+    text-align: center;
+    width: 200px;
+    margin-left: -74px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    text-transform: uppercase;
+   
+}
+.times {
+    text-align: center;
+    width: 298px;
+    margin: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+     
+}
+
+.logo {
+    text-align: center;
+    width: 281px;
+    display: inline-block;
+     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    margin-top: 37px;
+    position: absolute;
+    margin-left: -26px;
+
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+}
+
+
+/* MOZ STYLING*/
+
+@-moz-document url-prefix() {}
+
+body {background-image: url('../img/bck_.png');
+}
+   
+#container{
+margin: auto;
+width: 1120px;
+position: relative;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+background-color: white;  
+}
+
+     /*navigation*/
+nav {
+    font-size: 16px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    
+}
+nav ul {
+    text-align: center;
+    display: inline;
+    margin: 213px;
+    padding: 15px 4px 17px 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 14px 20px;
+    cursor: pointer;
+    -webkit-transition: all 5s;
+    -ms-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+nav a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.banner {
+        background-image: url('../img/fox/banner.jpg');
+        height: 700px;
+        background-size: cover;
+        position: relative;
+      }
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-top: 60px;
+    
+}
+
+p {  text-align: justify;
+    text-align-last: center;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    }
+ /*menu begin*/
+ h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    
+ }
+
+ hr {
+    width: 700px;
+    margin-top: 60px;
+    color: black;
+   
+ }
+
+ h3 {       
+   font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 60px;
+    color: black;
+    
+ }
+.port {
+    color: black;
+}
+
+.image_1 {
+    background-image: url(../img/fox/1.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-left: 277px;
+    margin-right: 288px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 56px;
+}
+
+.contactform {
+    height: 400px;
+   font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    
+}
+input {
+    display: block;
+    margin: 20px 0;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+textarea {
+    border-style: solid;
+    border-color: #000;
+    width: 300px;
+}
+.contactform {
+    color: white;
+    width: 1120px;
+    background-color: #fff;
+}
+.contactform p {
+    font-size: 12px;
+}
+.button {
+    width: 307px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+.name {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+}
+.textareacontainer {
+    display: inline-block;
+    width: 300px;
+}
+.form {
+    text-align: center;
+}
+.nameboxes {
+    width: 250px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.text_one {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_two {
+    text-align: left;
+    color: black;
+    display: block;
+}
+.text_three {
+    text-align: left;
+    color: black;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* button*/
+
+   #circle {
+    width: 56px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    margin-left: 525px;
+    margin-top: 35px;
+    font-size: 21px;
+    color: white;
+}
+
+    .fok {
+        color: black;
+    }      
+/* bottom*/
+
+.bottom {
+    background-color: black;
+    color: white;
+    height: 180px;
+    padding-top: 50px;
+    font-family: auto;
+    margin-top: 55px;
+        text-align: justify;
+    text-align-last: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    
+}
+
+.middle {
+text-align: center;
+    width: 50px;
+    margin-left: -367px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+
+}
+
+.location {
+    text-align: center;
+    width: 200px;
+    margin-left: -74px;
+    margin-top: 27px;
+    margin-bottom: 66px;
+    display: inline-block;
+    text-transform: uppercase;
+   
+}
+.times {
+    text-align: center;
+    width: 298px;
+    margin: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+     
+}
+
+.logo {
+    text-align: center;
+    width: 281px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    margin-top: 37px;
+    position: absolute;
+    margin-left: -26px;
+
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+
+
+}
+}
